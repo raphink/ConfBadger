@@ -2,56 +2,49 @@
 attendee-types:
   - name: "Speaker"
     color: "211, 165, 255"
+    email-overrides: []
     ticket-titles:
-      - "100.00% - KCDNL2023SPKR"
+      - "Speaker (Main Day only)"
+    email-overrides: []
+
   - name: "Sponsor"
     color: "0, 152, 254"
     ticket-titles:
-      - "100.00% - KCDAMS23_MULTILAYER_FREE_RRTFS"
-      - "100.00% - KCDAMS23_AVISI_FREE_YUHTG"
-      - "100.00% - KCDAMS23_CIRCLECI_FREE_UIGHT"
-      - "100.00% - KCDAMS23_BUOYANT_FREE_AAXDC"
-      - "100.00% - KCDAMS23_ELASTIC_FREE_IJUHY"
-      - "100.00% - KCDAMS23_ATCOMP_FREE_RRTFS"
-      - "100.00% - KCDAMS23_FULLSTAQ_FREE_ASDCX"
-      - "100.00% - KCDAMS23_AKNOSTIC_FREE_UHYGJ"
-      - "100.00% - KCDAMS23_FIKAWORKS_FREE_YGVHS"
-      - "100.00% - KCDAMS23_ING_FREE_ASDCX"
-      - "100.00% - KCDAMS23_REDKUBES_FREE_VGBSD"
-      - "100.00% - KCDAMS23_FERMYON_FREE_GYHUT"
-      - "100.00% - KCDAMS23_DOIT_FREE_TYGGHF"
-      - "100.00% - KCDAMS23_RABO_FREE_BHNJK"
-      - "100.00% - KCDAMS23_A1_FREE_ASDCX"
-      - "100.00% - KCDAMS23_SPECTROCLOUD_FREE_GTCFS"
-      - "100.00% - KCDAMS23_SUSE_FREE_JJHGT"
-      - "100.00% - KCDAMS23_MIA_FREE_GYHUT"
-      - "100.00% - KCDAMS23_HCS_FREE_RRTFS"
-      - "100.00% - KCDAMS23_SOLO.IO_FREE_ASDCX"
-      - "100.00% - KCDAMS23_APPVIA_FREE_TYYGH"
-      - "100.00% - KCDAMS23_EDB_FREE_JAESR"
-      - "100.00% - KCDAMS23_EDGELESS_FREE_HUGYF"
+     - "Sponsor (Main Day only)"
+    email-overrides: []
 
-  - name: "Organizer"
+  - name: "Staff"
     color: "255, 109, 10"
     ticket-titles:
-      - "100.00% - KCDAMS23_ORGANIZERS_42"
+      - ""
+    email-overrides: []
+
   - name: "Vip"
     color: "255, 109, 10"
-    ticket-titles:
-      - "100.00% - KCDAMS23-WILLIAMFRIENDS"
-      - "100.00% - KCDAMS_LOVES_DODAMS"
-      - "100.00% - KCDAMS23-ANDYFRIENDS"
+    email-overrides: []
+    ticket-titles: []
+
   - name: "Student"
     color: "159, 219, 255"
-    ticket-titles:
-      - "75.00% - STUDENTKCD75"
-      - "100.00% - KCDAMS_LOVES_DODAMS"
-      - "100.00% - KCDAMS23_CODAMFRIENDS"
+    email-overrides: []
+    ticket-titles: []
+
   - name: "Attendee"
     color: "159, 219, 255"
     background-size: 220
+    email-overrides: []
     ticket-titles:
-      - "None"
+      - "KCD Main Day only ‚Äî Early Bird (-23%)"
+      - "KCD Main Day + Workshops ‚Äî Early Bird (-25%)"
+      - "KCD Main Day only"
+      - "KCD Main Day + Workshops"
+
+  - name: "Workshops"
+    color: "0, 0, 0"
+    background-size: 220
+    email-overrides: []
+    ticket-titles:
+      - "KCD Workshops Add-On"
 data:
   - field: "First Name"
     font: "fonts/OpenSans-Bold.ttf"
@@ -100,15 +93,15 @@ sticker-labels:
   # Paper and label dimensions
   sheet-width: 210         # A4 width in mm
   sheet-height: 297        # A4 height in mm
-  label-width: 104.5         # Label width in mm (Buroline 500028)
+  label-width: 94.5         # Label width in mm (Buroline 500028)
   label-height: 42.3       # Label height in mm
   columns: 2               # Number of columns
   rows: 7                  # Number of rows (14 labels total)
   corner-radius: 0         # No rounded corners
   
   # Margins
-  left-margin: 0           # Sheet left margin in mm
-  right-margin: 0          # Sheet right margin in mm
+  left-margin: 10           # Sheet left margin in mm
+  right-margin: 10          # Sheet right margin in mm
   top-margin: 0         # Sheet top margin in mm
   bottom-margin: 0.9      # Sheet bottom margin in mm
   row-gap: 0               # Gap between rows in mm
@@ -142,4 +135,4 @@ sticker-labels:
   banner:
     height: 34             # Height of banner in points
     bottom-margin: 3       # Margin from bottom edge in points
-    left-margin: 3     # Margin from left edge in points
+    left-margin: 3     # Margin from left edge in point
